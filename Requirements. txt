@@ -1,0 +1,13 @@
+pip freeze > requirements.txt
+project-folder/
+│
+├── app.py
+├── requirements.txt  ✅
+└── other files...
+
+git add requirements.txt
+git commit -m "Add requirements.txt"
+git push origin main
+
+
+
